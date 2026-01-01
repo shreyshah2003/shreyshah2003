@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Shrey</h1>
 <h3 align="center">A passionate developer from SOL III</h3>
 
+<h3>🔭 I’m currently working on Web-Dev</h3>
+<h3>🌱 I’m currently learning Web3 and AI/ML</h3>
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shreyshah2003&label=Profile%20views&color=0e75b6&style=flat" alt="shreyshah2003" /> </p>
 
 - 📫 How to reach me **shreyshahsds@gmail.com**
