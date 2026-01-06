@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Shrey</h1>
-<h2 align="center">A passionate developer from SOL III</h2>
+<h1 align="center">Hi, I'm Shrey</h1>
+<h2 align="center">A passionate developer from SOL III 🌍</h2>
 
 <h3>🔭 I’m currently working on Web-Dev</h3>
 <h3>🌱 I’m currently learning Web3 and AI/ML</h3>
