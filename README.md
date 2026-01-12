@@ -20,5 +20,3 @@
 
 <p align="center" > <img align="center" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="450" height="400" > </p>
 <span><img align="center" src="https://github.com/shreyshah2003/shreyshah2003/blob/main/octocat-1768234855237.png" width="300" height="300"></span>
-<span><img align="center" src="https://github.com/shreyshah2003/shreyshah2003/blob/main/octocat-1768234855237.png" width="300" height="300"></span>
-<span><img align="center" src="https://github.com/shreyshah2003/shreyshah2003/blob/main/octocat-1768234855237.png" width="300" height="300"></span>
