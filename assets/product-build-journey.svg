@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title description">
+  <title id="title">From idea to shipped product — Shrey Shah</title>
+  <desc id="description">A dark terminal-style banner with an animated six-stage product journey: idea locked, scope, user flows, build, test, ship. A moving signal illustrates the iterative process.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091321"/><stop offset=".65" stop-color="#101d30"/><stop offset="1" stop-color="#0c1829"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#80ecbf"/><stop offset="1" stop-color="#82d7f4"/></linearGradient>
+    <pattern id="graph" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#8aa9be" stroke-width=".6" opacity=".075"/></pattern>
+    <clipPath id="rounded"><rect x="1" y="1" width="1438" height="478" rx="22"/></clipPath>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1440" height="480" fill="url(#canvas)"/><rect width="1440" height="480" fill="url(#graph)"/>
+    <path d="M0 65H1440" stroke="#32485e" stroke-width="1"/>
+    <circle cx="35" cy="32" r="7" fill="#fb7b85"/><circle cx="61" cy="32" r="7" fill="#fac979"/><circle cx="87" cy="32" r="7" fill="#83dbaf"/>
+    <text x="124" y="39" font-family="monospace" font-size="18" fill="#9CB7CC">~/product-lab  /  main</text>
+    <circle cx="1375" cy="32" r="4" fill="#8feec9"><animate attributeName="opacity" values=".4;1;.4" dur="3.1s" repeatCount="indefinite"/></circle>
+    <text x="1355" y="38" font-family="monospace" font-size="14" fill="#96d9cc" text-anchor="end">IDEA → SHIP</text>
+
+    <text x="70" y="163" font-family="monospace" font-size="16" letter-spacing="3" fill="#83e7cd">[ PRODUCT BUILDER ]</text>
+    <text x="69" y="226" font-family="Arial, sans-serif" font-size="49" font-weight="800" letter-spacing="-1.5" fill="#eef7ff">BUILD THE PRODUCT.</text>
+    <text x="69" y="291" font-family="Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-2" fill="#8cebc5">FROM 0 → 1.</text>
+    <text x="73" y="333" font-family="monospace" font-size="17" fill="#A1B8CC">From a locked idea to working software.</text>
+
+    <rect x="70" y="363" width="548" height="53" rx="10" fill="#10283e" stroke="#345b74"/>
+    <text x="89" y="397" fill="#e0effb" font-family="monospace" font-size="17">$ turn_ideas_into_real_things()</text>
+    <rect x="414" y="380" width="8" height="21" fill="#8be8c4"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.48;.5;1" dur="1.4s" repeatCount="indefinite"/></rect>
+
+    <rect x="676" y="112" width="708" height="306" rx="17" fill="#091727" stroke="#486783" stroke-width="1.4"/>
+    <text x="714" y="151" font-size="17" letter-spacing="2" font-family="monospace" fill="#B8CCD9">BUILD JOURNEY</text>
+    <text x="1352" y="151" text-anchor="end" font-size="13" font-family="monospace" fill="#8CAAC0">01—06</text>
+    <path d="M714 168H1351" fill="none" stroke="#264158"/>
+    <path id="forward" d="M753 236H1303" stroke="#315a68" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M753 236H1303" stroke="url(#accent)" stroke-width="2" fill="none" stroke-dasharray="7 11" opacity=".85"><animate attributeName="stroke-dashoffset" from="0" to="-144" dur="7.2s" repeatCount="indefinite"/></path>
+    <g>
+  <rect x="720" y="203" width="66" height="66" rx="14" fill="#0B1C30" stroke="#42637f" stroke-width="1.6"/>
+  <g transform="translate(753 236)" fill="none" stroke="#91efc6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="0" cy="-7" r="9"/><path d="M-7 1l3 6h8l3-6M-4 11h8M-4-20l-3-4M4-20l3-4M-14-9h-5M14-9h5"/></g>
+  <text x="753" y="301" text-anchor="middle" fill="#E2F1FA" font-size="15" font-family="monospace" font-weight="bold">IDEA</text>
+  <text x="753" y="321" text-anchor="middle" fill="#7CE3BF" font-size="13" font-family="monospace">LOCKED</text>
+  <rect x="732" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="0s" repeatCount="indefinite"/></rect>
+</g>
+<g>
+  <rect x="830" y="203" width="66" height="66" rx="14" fill="#0B1C30" stroke="#42637f" stroke-width="1.6"/>
+  <g transform="translate(863 236)" fill="none" stroke="#80d2ec" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M-11-17h16l7 7v26h-23zM5-17v7h7M-5-2h11M-5 5h11M-5 12h8"/></g>
+  <text x="863" y="301" text-anchor="middle" fill="#E2F1FA" font-size="15" font-family="monospace" font-weight="bold">SCOPE</text>
+  
+  <rect x="842" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+</g>
+<g>
+  <rect x="940" y="203" width="66" height="66" rx="14" fill="#0B1C30" stroke="#42637f" stroke-width="1.6"/>
+  <g transform="translate(973 236)" fill="none" stroke="#80d2ec" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="-5" y="-19" width="10" height="11" rx="2"/><rect x="-19" y="8" width="10" height="11" rx="2"/><rect x="9" y="8" width="10" height="11" rx="2"/><path d="M0-8v9M-14 8V1h28v7"/></g>
+  <text x="973" y="301" text-anchor="middle" fill="#E2F1FA" font-size="13" font-family="monospace" font-weight="bold">USER FLOWS</text>
+  
+  <rect x="952" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="2.4s" repeatCount="indefinite"/></rect>
+</g>
+<g>
+  <rect x="1050" y="203" width="66" height="66" rx="14" fill="#0B1C30" stroke="#42637f" stroke-width="1.6"/>
+  <g transform="translate(1083 236)" fill="none" stroke="#80d2ec" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M-10-12l-12 12 12 12M10-12L22 0 10 12M5-17L-5 17"/></g>
+  <text x="1083" y="301" text-anchor="middle" fill="#E2F1FA" font-size="15" font-family="monospace" font-weight="bold">BUILD</text>
+  
+  <rect x="1062" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="3.5999999999999996s" repeatCount="indefinite"/></rect>
+</g>
+<g>
+  <rect x="1160" y="203" width="66" height="66" rx="14" fill="#0B1C30" stroke="#42637f" stroke-width="1.6"/>
+  <g transform="translate(1193 236)" fill="none" stroke="#80d2ec" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="-16" y="-17" width="32" height="34" rx="5"/><path d="M-8-1l6 6L10-8"/></g>
+  <text x="1193" y="301" text-anchor="middle" fill="#E2F1FA" font-size="15" font-family="monospace" font-weight="bold">TEST</text>
+  
+  <rect x="1172" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="4.8s" repeatCount="indefinite"/></rect>
+</g>
+<g>
+  <rect x="1270" y="203" width="66" height="66" rx="14" fill="#102f37" stroke="#8ef0c8" stroke-width="1.6"/>
+  <g transform="translate(1303 236)" fill="none" stroke="#91efc6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M-15 11l-4 8 9-4M-6 7C-2-6 7-16 19-20c1 12-10 21-23 25l-6-6zM-6 7l-7 7M0-4l5 5"/><circle cx="9" cy="-9" r="3"/></g>
+  <text x="1303" y="301" text-anchor="middle" fill="#E2F1FA" font-size="15" font-family="monospace" font-weight="bold">SHIP</text>
+  
+  <rect x="1282" y="185" width="42" height="2" rx="1" fill="#8BE4CF" opacity=".20"><animate attributeName="opacity" values=".2;.95;.2" dur="7.2s" begin="6s" repeatCount="indefinite"/></rect>
+</g>
+    <circle r="11" cy="236" cx="753" fill="#8ceac5" opacity=".35" filter="url(#glow)">
+      <animate attributeName="cx" values="753;1303;753" keyTimes="0;.85;1" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;0" dur="7.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" cy="236" cx="753" fill="#dcfff2">
+      <animate attributeName="cx" values="753;863;973;1083;1193;1303;753" keyTimes="0;.16;.32;.48;.64;.82;1" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;1;1;0" dur="7.2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M1303 344V359Q1303 375 1287 375H878Q863 375 863 359V345" stroke="#518da3" stroke-dasharray="5 8" stroke-width="1.6" fill="none" stroke-linecap="round">
+       <animate attributeName="stroke-dashoffset" from="0" to="104" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M856 352l7-9 7 9" stroke="#7adac3" fill="none" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="1043" y="366" width="80" height="17" rx="8" fill="#091727"/>
+    <text x="1083" y="379" text-anchor="middle" font-family="monospace" font-size="13" fill="#87deca" letter-spacing="1">ITERATE</text>
+    <path d="M0 467H1440" stroke="#263d53" stroke-width="8"/>
+    <path d="M0 467H210" stroke="#7bd8bd" stroke-width="8"><animate attributeName="d" values="M0 467H210;M0 467H800;M0 467H1440;M0 467H210" dur="13s" repeatCount="indefinite"/></path>
+  </g>
+  <rect x="1" y="1" width="1438" height="478" rx="22" stroke="#294861" stroke-width="2" fill="none"/>
+</svg>
