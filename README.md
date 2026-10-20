@@ -3,7 +3,7 @@
 ![The journey from an idea to shipped software — animated product-build diagram](assets/product-build-journey.svg)
 
 ### Shrey Shah
-**Technical Support Engineer · Crypto-fintech · Product-minded builder**
+**Product Support Specialist · Crypto-fintech · Product-minded builder**
 
 I work where **APIs, data, user problems, and product decisions** meet. I enjoy getting from an unclear symptom to a clear system-level explanation — and then building something better.
 
