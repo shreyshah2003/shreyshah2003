@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 360" width="1120" height="360" role="img" aria-labelledby="title desc">
+<title id="title">Shrey Shah — systems engineer console</title><desc id="desc">A dark technical dashboard: trace the signal from a reported issue through logs, APIs, SQL and engineering decisions. Animated signal particles and status indicators.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0D1423"/><stop offset=".55" stop-color="#101C30"/><stop offset="1" stop-color="#11142A"/></linearGradient>
+  <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#A5F3C6"/><stop offset="1" stop-color="#74D9F5"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#BDD4ED" stroke-opacity=".055"/></pattern>
+  <clipPath id="clip"><rect width="1120" height="360" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1120" height="360" fill="url(#bg)"/><rect width="1120" height="360" fill="url(#grid)"/>
+<path d="M0 49H1120" stroke="#3A4B67"/>
+<circle cx="28" cy="25" r="6" fill="#FF777A"/><circle cx="49" cy="25" r="6" fill="#F7C46C"/><circle cx="70" cy="25" r="6" fill="#94E2AC"/>
+<text x="96" y="31" fill="#96ABC7" font-size="14" font-family="monospace">shrey@github : ~/systems/diagnostics</text>
+<text x="1092" y="30" fill="#7AC9D7" font-size="13" font-family="monospace" text-anchor="end">● SIGNAL ONLINE</text>
+<circle cx="951" cy="25" r="5" fill="#7AF1CA"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="60" y="99" font-size="15" fill="#81E2C1" letter-spacing="2.5" font-family="monospace">HELLO, WORLD. I'M SHREY.</text>
+<text x="56" y="157" font-size="49" font-weight="800" fill="#F2F7FE" font-family="Arial, sans-serif" letter-spacing="-2">TRACE THE BUG.</text>
+<text x="56" y="211" font-size="49" font-weight="800" fill="#9EF4C8" font-family="Arial, sans-serif" letter-spacing="-2">CONNECT THE DOTS.</text>
+<text x="59" y="248" font-size="16" fill="#AAC0DA" font-family="monospace">Fintech systems  /  APIs  /  SQL  /  Product thinking</text>
+<rect x="57" y="276" width="485" height="45" rx="9" fill="#1A2B40" stroke="#36516C"/>
+<text x="75" y="303" font-size="14" fill="#C7DBEC" font-family="monospace">$ root-cause --not-just-workaround</text>
+<rect x="574" y="77" width="506" height="244" rx="13" fill="#0A1425" stroke="#3A5570"/>
+<text x="596" y="107" font-size="13" fill="#8FA7C3" font-family="monospace" letter-spacing="1">/ TRACE ROUTE</text>
+<text x="1055" y="107" font-size="12" fill="#6FF0C5" font-family="monospace" text-anchor="end">STREAMING</text>
+<path d="M629 180 H1022" stroke="#526681" stroke-width="4" stroke-linecap="round"/>
+<path d="M629 180 H1022" stroke="url(#flow)" stroke-width="3" stroke-dasharray="9 16" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3.6s" repeatCount="indefinite"/></path>
+<g fill="#0E1D32" stroke="#80E5C4" stroke-width="3">
+<circle cx="650" cy="180" r="15"/><circle cx="766" cy="180" r="15"/><circle cx="882" cy="180" r="15"/><circle cx="998" cy="180" r="15"/>
+</g>
+<g fill="#8FEBC8"><circle cx="650" cy="180" r="5"/><circle cx="766" cy="180" r="5"/><circle cx="882" cy="180" r="5"/><circle cx="998" cy="180" r="5"/></g>
+<circle cy="180" r="7" fill="#FFFFFF"><animate attributeName="cx" values="650;766;882;998;650" keyTimes="0;.3;.6;.9;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0" dur="5s" repeatCount="indefinite"/></circle>
+<g fill="#C6D7EB" font-size="13" font-family="monospace" text-anchor="middle">
+<text x="650" y="220">REPRO</text><text x="766" y="220">LOGS</text><text x="882" y="220">SQL/API</text><text x="998" y="220">FIX</text>
+</g>
+<rect x="596" y="246" width="459" height="47" rx="7" fill="#13283A" stroke="#31596A"/>
+<text x="611" y="266" font-size="12" fill="#83A5BE" font-family="monospace">diagnostic.output</text>
+<text x="611" y="284" font-size="13" fill="#95F5CA" font-family="monospace">understand_system &gt; close_ticket</text>
+<rect y="346" width="1120" height="14" fill="#172A3E"/>
+<rect y="346" width="280" height="14" fill="#80E6C1"><animate attributeName="x" values="-280;1120" dur="6s" repeatCount="indefinite"/></rect>
+</g></svg>
